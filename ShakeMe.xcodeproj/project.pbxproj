@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962F716E19A9661C00A90C4E /* NSTimer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 962F716D19A9661C00A90C4E /* NSTimer+BlocksKit.m */; };
+		962F717019A96DF200A90C4E /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962F716F19A96DF200A90C4E /* Firebase.framework */; };
+		962F717219A96E1000A90C4E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 962F717119A96E1000A90C4E /* libicucore.dylib */; };
+		962F717419A96E1800A90C4E /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 962F717319A96E1800A90C4E /* libc++.dylib */; };
+		962F717619A96E1F00A90C4E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962F717519A96E1F00A90C4E /* CFNetwork.framework */; };
+		962F717819A96E2400A90C4E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962F717719A96E2400A90C4E /* Security.framework */; };
+		962F717A19A96E2D00A90C4E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962F717919A96E2D00A90C4E /* SystemConfiguration.framework */; };
+		96463F0319AA5737002389AF /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96463F0219AA5737002389AF /* Crashlytics.framework */; };
+		96463F0419AA5737002389AF /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96463F0219AA5737002389AF /* Crashlytics.framework */; };
 		96609E7A19A94BC400A2556E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96609E7919A94BC400A2556E /* Foundation.framework */; };
 		96609E7C19A94BC400A2556E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96609E7B19A94BC400A2556E /* CoreGraphics.framework */; };
 		96609E7E19A94BC400A2556E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96609E7D19A94BC400A2556E /* UIKit.framework */; };
@@ -21,6 +30,20 @@
 		96609E9B19A94BC400A2556E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96609E7D19A94BC400A2556E /* UIKit.framework */; };
 		96609EA319A94BC400A2556E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96609EA119A94BC400A2556E /* InfoPlist.strings */; };
 		96609EA519A94BC400A2556E /* ShakeMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96609EA419A94BC400A2556E /* ShakeMeTests.m */; };
+		96609EAF19A9538600A2556E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96609EAE19A9538600A2556E /* CoreMotion.framework */; };
+		96F4A3ED19A9AB7A0081B497 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F4A3EC19A9AB7A0081B497 /* AudioToolbox.framework */; };
+		96F4A40819A9AE050081B497 /* Winner.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 96F4A40719A9AE050081B497 /* Winner.m4a */; };
+		96F4A40919A9AE050081B497 /* Winner.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 96F4A40719A9AE050081B497 /* Winner.m4a */; };
+		96F4A41519A9AF7F0081B497 /* Roll.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 96F4A41419A9AF7F0081B497 /* Roll.m4a */; };
+		96F4A41619A9AF7F0081B497 /* Roll.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 96F4A41419A9AF7F0081B497 /* Roll.m4a */; };
+		96F4A41819A9AFA40081B497 /* Lose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 96F4A41719A9AFA40081B497 /* Lose.m4a */; };
+		96F4A41919A9AFA40081B497 /* Lose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 96F4A41719A9AFA40081B497 /* Lose.m4a */; };
+		96F4A41B19A9AFF20081B497 /* Celebration.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 96F4A41A19A9AFF20081B497 /* Celebration.m4a */; };
+		96F4A41C19A9AFF20081B497 /* Celebration.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 96F4A41A19A9AFF20081B497 /* Celebration.m4a */; };
+		96F4A42019A9B18F0081B497 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F4A41F19A9B18F0081B497 /* SoundManager.m */; };
+		96F4A42119A9B18F0081B497 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F4A41F19A9B18F0081B497 /* SoundManager.m */; };
+		96F4A42319A9B9BD0081B497 /* Bananas.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 96F4A42219A9B9BD0081B497 /* Bananas.aiff */; };
+		96F4A42419A9B9BD0081B497 /* Bananas.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 96F4A42219A9B9BD0081B497 /* Bananas.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		962F716C19A9661C00A90C4E /* NSTimer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlocksKit.h"; sourceTree = "<group>"; };
+		962F716D19A9661C00A90C4E /* NSTimer+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlocksKit.m"; sourceTree = "<group>"; };
+		962F716F19A96DF200A90C4E /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		962F717119A96E1000A90C4E /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		962F717319A96E1800A90C4E /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		962F717519A96E1F00A90C4E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		962F717719A96E2400A90C4E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		962F717919A96E2D00A90C4E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		96463F0219AA5737002389AF /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		96609E7619A94BC400A2556E /* ShakeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96609E7919A94BC400A2556E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		96609E7B19A94BC400A2556E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +85,15 @@
 		96609EA019A94BC400A2556E /* ShakeMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShakeMeTests-Info.plist"; sourceTree = "<group>"; };
 		96609EA219A94BC400A2556E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96609EA419A94BC400A2556E /* ShakeMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeMeTests.m; sourceTree = "<group>"; };
+		96609EAE19A9538600A2556E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		96F4A3EC19A9AB7A0081B497 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		96F4A40719A9AE050081B497 /* Winner.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Winner.m4a; sourceTree = "<group>"; };
+		96F4A41419A9AF7F0081B497 /* Roll.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Roll.m4a; sourceTree = "<group>"; };
+		96F4A41719A9AFA40081B497 /* Lose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lose.m4a; sourceTree = "<group>"; };
+		96F4A41A19A9AFF20081B497 /* Celebration.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Celebration.m4a; sourceTree = "<group>"; };
+		96F4A41E19A9B18F0081B497 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		96F4A41F19A9B18F0081B497 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		96F4A42219A9B9BD0081B497 /* Bananas.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Bananas.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +101,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F4A3ED19A9AB7A0081B497 /* AudioToolbox.framework in Frameworks */,
+				962F717A19A96E2D00A90C4E /* SystemConfiguration.framework in Frameworks */,
+				962F717819A96E2400A90C4E /* Security.framework in Frameworks */,
+				962F717619A96E1F00A90C4E /* CFNetwork.framework in Frameworks */,
+				962F717419A96E1800A90C4E /* libc++.dylib in Frameworks */,
+				962F717219A96E1000A90C4E /* libicucore.dylib in Frameworks */,
+				962F717019A96DF200A90C4E /* Firebase.framework in Frameworks */,
+				96609EAF19A9538600A2556E /* CoreMotion.framework in Frameworks */,
 				96609E7C19A94BC400A2556E /* CoreGraphics.framework in Frameworks */,
 				96609E7E19A94BC400A2556E /* UIKit.framework in Frameworks */,
+				96463F0319AA5737002389AF /* Crashlytics.framework in Frameworks */,
 				96609E7A19A94BC400A2556E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +122,7 @@
 			files = (
 				96609E9919A94BC400A2556E /* XCTest.framework in Frameworks */,
 				96609E9B19A94BC400A2556E /* UIKit.framework in Frameworks */,
+				96463F0419AA5737002389AF /* Crashlytics.framework in Frameworks */,
 				96609E9A19A94BC400A2556E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +133,8 @@
 		96609E6D19A94BC400A2556E = {
 			isa = PBXGroup;
 			children = (
+				96F4A41D19A9B18F0081B497 /* SoundManager */,
+				96C72E0D19A9A9DA004973D3 /* Resources */,
 				96609E7F19A94BC400A2556E /* ShakeMe */,
 				96609E9E19A94BC400A2556E /* ShakeMeTests */,
 				96609E7819A94BC400A2556E /* Frameworks */,
@@ -101,6 +154,15 @@
 		96609E7819A94BC400A2556E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				96463F0219AA5737002389AF /* Crashlytics.framework */,
+				96F4A3EC19A9AB7A0081B497 /* AudioToolbox.framework */,
+				962F717919A96E2D00A90C4E /* SystemConfiguration.framework */,
+				962F717719A96E2400A90C4E /* Security.framework */,
+				962F717519A96E1F00A90C4E /* CFNetwork.framework */,
+				962F717319A96E1800A90C4E /* libc++.dylib */,
+				962F717119A96E1000A90C4E /* libicucore.dylib */,
+				962F716F19A96DF200A90C4E /* Firebase.framework */,
+				96609EAE19A9538600A2556E /* CoreMotion.framework */,
 				96609E7919A94BC400A2556E /* Foundation.framework */,
 				96609E7B19A94BC400A2556E /* CoreGraphics.framework */,
 				96609E7D19A94BC400A2556E /* UIKit.framework */,
@@ -112,6 +174,8 @@
 		96609E7F19A94BC400A2556E /* ShakeMe */ = {
 			isa = PBXGroup;
 			children = (
+				962F716C19A9661C00A90C4E /* NSTimer+BlocksKit.h */,
+				962F716D19A9661C00A90C4E /* NSTimer+BlocksKit.m */,
 				96609E8819A94BC400A2556E /* SMAppDelegate.h */,
 				96609E8919A94BC400A2556E /* SMAppDelegate.m */,
 				96609E8B19A94BC400A2556E /* Main.storyboard */,
@@ -152,6 +216,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		96C72E0D19A9A9DA004973D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96F4A42219A9B9BD0081B497 /* Bananas.aiff */,
+				96F4A41A19A9AFF20081B497 /* Celebration.m4a */,
+				96F4A41719A9AFA40081B497 /* Lose.m4a */,
+				96F4A41419A9AF7F0081B497 /* Roll.m4a */,
+				96F4A40719A9AE050081B497 /* Winner.m4a */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		96F4A41D19A9B18F0081B497 /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				96F4A41E19A9B18F0081B497 /* SoundManager.h */,
+				96F4A41F19A9B18F0081B497 /* SoundManager.m */,
+			);
+			path = SoundManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,6 +247,7 @@
 				96609E7219A94BC400A2556E /* Sources */,
 				96609E7319A94BC400A2556E /* Frameworks */,
 				96609E7419A94BC400A2556E /* Resources */,
+				96463F0119AA5720002389AF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -200,6 +286,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Elyaski;
 				TargetAttributes = {
+					96609E7519A94BC400A2556E = {
+						DevelopmentTeam = 85FHKXX3A2;
+					};
 					96609E9619A94BC400A2556E = {
 						TestTargetID = 96609E7519A94BC400A2556E;
 					};
@@ -230,8 +319,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				96609E9219A94BC400A2556E /* Images.xcassets in Resources */,
+				96F4A40819A9AE050081B497 /* Winner.m4a in Resources */,
 				96609E8419A94BC400A2556E /* InfoPlist.strings in Resources */,
 				96609E8D19A94BC400A2556E /* Main.storyboard in Resources */,
+				96F4A42319A9B9BD0081B497 /* Bananas.aiff in Resources */,
+				96F4A41819A9AFA40081B497 /* Lose.m4a in Resources */,
+				96F4A41519A9AF7F0081B497 /* Roll.m4a in Resources */,
+				96F4A41B19A9AFF20081B497 /* Celebration.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,10 +334,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				96609EA319A94BC400A2556E /* InfoPlist.strings in Resources */,
+				96F4A41619A9AF7F0081B497 /* Roll.m4a in Resources */,
+				96F4A40919A9AE050081B497 /* Winner.m4a in Resources */,
+				96F4A42419A9B9BD0081B497 /* Bananas.aiff in Resources */,
+				96F4A41C19A9AFF20081B497 /* Celebration.m4a in Resources */,
+				96F4A41919A9AFA40081B497 /* Lose.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96463F0119AA5720002389AF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 4b0d1ff0941bd916379a1e0101fc8663004abd62 8855cd77bc1d4d5acb786ff6ccb27409a840421c5d7303a882e89a9c8794fd02";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96609E7219A94BC400A2556E /* Sources */ = {
@@ -251,8 +366,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				96609E8A19A94BC400A2556E /* SMAppDelegate.m in Sources */,
+				962F716E19A9661C00A90C4E /* NSTimer+BlocksKit.m in Sources */,
 				96609E9019A94BC400A2556E /* SMViewController.m in Sources */,
 				96609E8619A94BC400A2556E /* main.m in Sources */,
+				96F4A42019A9B18F0081B497 /* SoundManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F4A42119A9B18F0081B497 /* SoundManager.m in Sources */,
 				96609EA519A94BC400A2556E /* ShakeMeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,10 +495,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shady Elyaski (T9L83G9KD2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shady Elyaski (T9L83G9KD2)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShakeMe/ShakeMe-Prefix.pch";
 				INFOPLIST_FILE = "ShakeMe/ShakeMe-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ShakeMe;
+				PROVISIONING_PROFILE = "1086b925-8cc7-4e0d-8060-4cd9e3ba0c4d";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +517,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shady Elyaski (T9L83G9KD2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shady Elyaski (T9L83G9KD2)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShakeMe/ShakeMe-Prefix.pch";
 				INFOPLIST_FILE = "ShakeMe/ShakeMe-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ShakeMe;
+				PROVISIONING_PROFILE = "1086b925-8cc7-4e0d-8060-4cd9e3ba0c4d";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -406,6 +542,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShakeMe/ShakeMe-Prefix.pch";
@@ -414,7 +551,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "ShakeMeTests/ShakeMeTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ShakeMeTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -428,11 +565,12 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShakeMe/ShakeMe-Prefix.pch";
 				INFOPLIST_FILE = "ShakeMeTests/ShakeMeTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ShakeMeTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -457,6 +595,7 @@
 				96609EAA19A94BC400A2556E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96609EAB19A94BC400A2556E /* Build configuration list for PBXNativeTarget "ShakeMeTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +604,7 @@
 				96609EAD19A94BC400A2556E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

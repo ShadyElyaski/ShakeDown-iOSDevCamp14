@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Firebase/Firebase.h>
 
 @interface SMViewController : UIViewController
-
+@property(strong) Firebase *homeRef;
 @end

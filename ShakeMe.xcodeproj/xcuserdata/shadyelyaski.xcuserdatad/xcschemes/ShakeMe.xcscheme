@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "96609E7519A94BC400A2556E"
-               BuildableName = "ShakeMe.app"
+               BuildableName = "ShakeDown.app"
                BlueprintName = "ShakeMe"
                ReferencedContainer = "container:ShakeMe.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "96609E9619A94BC400A2556E"
-               BuildableName = "ShakeMeTests.xctest"
+               BuildableName = "ShakeDownTests.xctest"
                BlueprintName = "ShakeMeTests"
                ReferencedContainer = "container:ShakeMe.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "96609E7519A94BC400A2556E"
-            BuildableName = "ShakeMe.app"
+            BuildableName = "ShakeDown.app"
             BlueprintName = "ShakeMe"
             ReferencedContainer = "container:ShakeMe.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "96609E7519A94BC400A2556E"
-            BuildableName = "ShakeMe.app"
+            BuildableName = "ShakeDown.app"
             BlueprintName = "ShakeMe"
             ReferencedContainer = "container:ShakeMe.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "96609E7519A94BC400A2556E"
-            BuildableName = "ShakeMe.app"
+            BuildableName = "ShakeDown.app"
             BlueprintName = "ShakeMe"
             ReferencedContainer = "container:ShakeMe.xcodeproj">
          </BuildableReference>
